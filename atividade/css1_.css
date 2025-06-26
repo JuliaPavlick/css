@@ -1,0 +1,27 @@
+* {
+    margin: 0; /* Remove margens padrão de todos os elementos */
+    padding: 0; /* Remove preenchimentos padrão de todos os elementos */
+    box-sizing: border-box; /* Faz com que padding e border sejam incluídos na largura/altura total dos elementos */
+  }
+  
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* Define fontes preferenciais do sistema e alternativas */
+    background-color: #fcf6eb; /* Cor de fundo clara e quente */
+    color: #212529; /* Cor de texto escura para contraste */
+    padding: 30px; /* Espaçamento interno do body */
+    display: flex; /* Define o body como flex container */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    min-height: 100vh; /* Altura mínima do body igual à altura total da viewport */
+  }
+
+  button{
+    position: center;
+    display:inline-block;
+    margin:20px;
+    width:150px;
+    height:30px;
+    color:black;
+    background:peru;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* Define fontes preferenciais do sistema e alternativas */
+  }

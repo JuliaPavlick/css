@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Fornecedor</title>
+    <link rel="stylesheet" type="text/css" href="css1_.css" media="all">
+</head>
+
+<body>
+    <table cellpadding="8" cellspacing="0" width="600" align="center">
+        <!-- Logo da Padaria -->
+        <tr>
+            <td colspan="2" style="text-align:center;">
+                <img src="img/logopadaria.png" alt="Padaria do Alemão" width="70">
+            </td>
+        </tr>
+
+        <!-- Título principal -->
+        <tr>
+            <th colspan="2" style="text-align:center;">CADASTRO DE FORNECEDOR</th>
+        </tr>
+
+        <!-- Seção: Dados da Empresa -->
+        <tr>
+            <th colspan="2" style="text-align:left;">DADOS DA EMPRESA</th>
+        </tr>
+        <tr>
+            <td>
+                <label for="nome">Nome da Empresa:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Nome da empresa" style="width:100%;">
+            </td>
+            <td>
+                <label for="cnpj">CNPJ:</label><br>
+                <input type="text" id="cnpj" name="cnpj" placeholder="99.999.999/9999-99" style="width:100%;">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="fundacao">Data de Fundação:</label><br>
+                <input type="date" id="fundacao" name="fundacao" placeholder="DD/MM/AAAA" style="width:100%;">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="endereco">Endereço:</label><br>
+                <input type="text" id="endereco" name="endereco" placeholder="Rua ..., Nº, Bairro, Cidade"
+                    style="width:100%;">
+            </td>
+        </tr>
+
+        <!-- Seção: Formas de Contato -->
+        <tr>
+            <th colspan="2" style="text-align:left;">FORMAS DE CONTATO</th>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" placeholder="Digite o e-mail" style="width:100%;">
+            </td>
+            <td>
+                <label for="telefone">Telefone:</label><br>
+                <input type="text" id="telefone" name="telefone" placeholder="(00) 00000-0000" style="width:100%;">
+            </td>
+        </tr>
+
+        <!-- Botão de submissão -->
+        <tr>
+            <td colspan="2" style="text-align:center;">
+                <button type="submit">Cadastrar</button>
+            </td>
+        </tr>
+    </table>
+    <p></p>
+</body>
+</html>
