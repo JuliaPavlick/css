@@ -1,8 +1,44 @@
-p{
-    color:white;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: yellow;
+    padding: 45px;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid black;
+    
+}
+
+/* Container central */
+.container {
+    display: flex;
+    height: 461px;
+}
+
+/* Menu lateral */
+.menu {
+    background-color: lightblue;
+    width: 20%;
+    padding: 40px;
+    border: 1px solid black;
+}
+
+/* Conteúdo principal */
+.conteudo {
+    background-color: lightcoral;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* Rodapé */
+.rodape {
+    border: 1px solid black;
     background-color: green;
-    text-align: center;
-    font-family: "Arial Narrow";
-    font-size: 15pt;
+    padding: 14px;
     font-weight: bold;
 }
